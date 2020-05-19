@@ -1,4 +1,8 @@
-# Devise Token Auth
+# Devise Token Auth Multitenancy
+
+## Overview from the actual
+
+The actual gem provides the devise_token_auth - core functionality. This is a fork from the main gem for adding multitenancy to the gem
 
 [![Gem Version](https://badge.fury.io/rb/devise_token_auth.svg)](http://badge.fury.io/rb/devise_token_auth)
 [![Build Status](https://travis-ci.org/lynndylanhurley/devise_token_auth.svg?branch=master)](https://travis-ci.org/lynndylanhurley/devise_token_auth)
@@ -40,7 +44,7 @@ This project leverages the following gems:
 Add the following to your `Gemfile`:
 
 ~~~ruby
-gem 'devise_token_auth'
+gem 'devise_token_auth_multitenancy'
 ~~~
 
 Then install the gem using bundle:

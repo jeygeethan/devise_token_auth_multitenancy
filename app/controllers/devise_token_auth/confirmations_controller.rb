@@ -35,7 +35,7 @@ module DeviseTokenAuth
 
       @email = get_case_insensitive_field_from_resource_params(:email)
 
-      @resource = resource_class.dta_find_by(uid: @email, provider: provider)
+      @resource = resource_class.dta_find_by({uid: @email, provider: provider}, self.instance_eval(&DeviseTokenAuth.multitenancy_finder_params))
 
       return render_not_found_error unless @resource
 

@@ -7,12 +7,12 @@ require 'devise_token_auth/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'devise_token_auth'
+  s.name        = 'devise_token_auth_multitenancy'
   s.version     = DeviseTokenAuth::VERSION
-  s.authors     = ['Lynn Hurley']
-  s.email       = ['lynn.dylan.hurley@gmail.com']
-  s.homepage    = 'http://github.com/lynndylanhurley/devise_token_auth'
-  s.summary     = 'Token based authentication for rails. Uses Devise + OmniAuth.'
+  s.authors     = ['Lynn Hurley', 'Jey Geethan']
+  s.email       = ['lynn.dylan.hurley@gmail.com', 'j@jeygeethan.com']
+  s.homepage    = 'http://github.com/jeygeethan/devise_token_auth_multitenancy'
+  s.summary     = 'Token based authentication for rails. Uses Devise + OmniAuth. Plus multitenancy'
   s.description = 'For use with client side single page apps such as the venerable https://github.com/lynndylanhurley/ng-token-auth.'
   s.license     = 'WTFPL'
 
